@@ -4,25 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras Formatações</title>
+    <title>Listas OL e UL</title>
 </head>
 <body>
-    <h1>Código-Fonte</h1>
-    <p>
-        Quando queremos mostrar uma ou mais linhas de código, como window.document.getElementById('teste') utilizamos a tag &lt;code&gt; <br>
-        Como demonstrado agora: <code style="background-color: antiquewhite;">window.document.getElementById('teste')</code>, pois assim deixamos as letras monoespaçadas, ou seja, todas as letras com o mesmo espaçamento.
-        Também podemos escrever um trecho de código com a mesma tag, como mostrado abaixo:<br>
-        <pre>
-            <code>
-                # Teste em Python
-                num = int(input("Digite um valor inteiro: "))
-                if num % 2 == 0:
-                    print("O número digitado é um número PAR!")
-                else:
-                    print("O número digitado é um número IMPAR!")
-                print("Fim do Programa!")
-            </code>
-        </pre>
-    </p>
+    <h1>Trabalhando com LISTAS</h1> <!--- 1 A a I i -->
+    <br>
+    <h2>Listas Ordenadas (OL)</h2>
+    <p>1 - Acordar</p>
+    <p>2 - Ligar para João</p>
+    <p>3 - Tomar café</p>
+    <ol type="A">
+        <li>Acordar</li>
+        <li>Ligar para João</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café</li>
+        <li>Ir trabalhar</li>
+    </ol>
+    <h2>Lista Não-Ordenadas (UL)</h2> <!-- disc circle square-->
+    <ul type="circle">
+        <li>Pão</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Cenoura</li>
+        <li>Alho</li>
+    </ul>
+    <h2>Listas Mistas</h2>
+    <p>Consiste em criar listas com os dois tipos juntos</p>
+    <ul>
+        <li>Jogos Favoritos:</li>
+        <ol type="a" start="1"> <!--start é um parâmetro numérico!-->
+            <li>Rocket League</li>
+            <li>Elden Ring</li>
+            <li>League of Legends</li>
+        </ol>
+        <li>Linguágens de Programação Favoritas:</li>
+        <ol type="a" start="1"> <!--start é um parâmetro numérico!-->
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>R</li>
+            <li>Java</li>
+        </ol>
+    </ul>
+    <h2>Lista de Definição:</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de Programação usada para criar interatividade com o usuário.</dd>
+    </dl>
 </body>
 </html>
