@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Android";
+    src: url(fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Bebas Neue";
+    src: url(fontes/BebasNeue-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --cor0: #C5EBD6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063D1E;
+    --fonte0: Arial, Helvetica, sans-serif;
+    --fonte1: 'Bebas Neue', cursive;
+    --fonte2: 'Android', sans-serif;
+}
+
+* {
+    margin: 0px;
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--fonte0);
+    color: var(--cor0);
+    background-color: var(--cor1);
+}
+
+
+header {
+    background-image: linear-gradient( #99f1a8, #348643);
+    color: white;
+    padding: 10px;
+    font-family: var(--fonte1);
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px black;
+    height: auto;
+}
+
+header > h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+nav {
+    text-align: justify;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+    padding: 5px;
+}
+
+nav > a:hover {
+    background-color: gray;
+    text-decoration: underline;
+}
+
+strong {
+    color: var(--cor3);
+}
+
+main {
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    color: black;
+    padding: 15px;
+    line-height: 2em;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 1px 1px 3px black;
+}
+
+main > p {
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 2em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main > h1 {
+    color: var(--cor4);
+    font-family: "Android";
+}
+
+main > h2 {
+    font-family: "Android";
+    background-color: var(--cor0);
+    color: var(--cor4);
+    padding: 5px;
+    text-indent: 10px;
+    height: auto;
+}
+
+main > a {
+    text-decoration: none;
+}
+
+footer {
+    padding: 10px;
+    background-color: var(--cor4);
+    color: white;
+    font-style: italic;
+    text-align: center;
+    margin-top: 1em;
+}
+
+footer > strong {
+    color: white;
+    font-weight: bold;
+}
+picture {
+    align-items: center;
+}
+
+div.imagem {
+    text-align: center;
+}
+
+div.video {
+    position: relative;
+    background-color: var(--cor4);
+    height: 0px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
