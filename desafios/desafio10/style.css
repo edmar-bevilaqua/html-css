@@ -148,3 +148,21 @@ div.video > iframe {
     width: 90%;
     height: 90%;
 }
+
+.extra {
+    background-color: var(--cor0);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.extra > h2 {
+    background-color: var(--cor1);
+    font-family: var(--fonte2);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.extra > p{
+    text-align: justify;
+    text-indent: 25px;
+}
