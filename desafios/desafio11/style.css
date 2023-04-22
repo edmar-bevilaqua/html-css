@@ -1,0 +1,25 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    height: 100vh;
+    background-image: url(imagens/espaco.jpg);
+    background-size: 100vw 100vh;
+}
+
+.astronauta {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.astronauta img {
+    height: 50vh;
+    width: 40vw;
+}
