@@ -15,10 +15,13 @@ body {
 }
 
 .astronauta {
-    display: block;
+    height: 100vh;
     text-align: center;
-    margin: auto;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100vw;
 }
+
 .astronauta img {
     height: 50vh;
     width: 40vw;
