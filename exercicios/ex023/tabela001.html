@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas em HTML</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td {
+            border: 1px solid black;
+            width: 100px;
+            padding: 5px;
+        }
+        tr.lisa {
+            background-color: white;
+        }
+        tr.pigmentada {
+            background-color: lightgray;
+        }
+        td#importante {
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela em HTML</h1>
+    <!--
+            Hierarquia de Tabelas Simples:
+            1 TABLE = Tabela <table> </table>
+                1.1 TABLE ROW = Linha de Tabela <tr> </tr>
+                    1.1.1 TABLE HEADER = Cabeçalho de tabela <thead> </thead>
+                    1.1.2 TABLE DATA = Dado da tabela <td> </td>
+    -->
+    <table>
+        <thead>Cabeçalho</thead>
+        <tr class="lisa">
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr class="pigmentada">
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr class="lisa">
+            <td>A3</td>
+            <td id="importante">B3</td>
+            <td>C3</td>
+        </tr>
+        <tr class="pigmentada">
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+</body>
+</html>
