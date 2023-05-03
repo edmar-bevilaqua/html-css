@@ -5,10 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendendo sobre IFrames</title>
+    <style>
+        iframe {
+            height: 450px;
+            width: 600px;
+        }
+    </style>
 </head>
 <body>
     <h1>Testando o uso de iframes</h1>
-    <p>Acessando o site do <iframe src="https://www.cursoemvideo.com/" frameborder="1"></iframe> para aprender a programar</p>
-    <p>Alguns sites como o Google não permitem o uso de iframes, como <iframe src="https://www.google.com/" frameborder="1"></iframe> visto ao lado aqui</p>
+    <p>Acessando o site do 
+        <!-- Tamanho padrão do iframe: 300x150 px -->
+
+        <iframe src="https://www.cursoemvideo.com/" frameborder="1" scrooling="no">
+            <a href="https://www.cursoemvideo.com/" target="_blank">Curso em Video</a>
+        </iframe>
+        para aprender a programar
+    </p>
+    <p>Alguns sites como o Google não permitem o uso de iframes, como <iframe src="https://www.google.com/" frameborder="1"><a href="https://www.google.com/" target="_blank">Google.com</a></iframe> visto ao lado aqui</p>
 </body>
 </html>
