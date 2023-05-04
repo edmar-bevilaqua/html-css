@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(imagens/fundo-madeira.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+}
+
+section.icones {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5vw;
+    height: 50vh;
+    background-color: transparent;
+    text-align: center;
+}
+
+article.container {
+    width: 3vw;
+    height: 5.5vh;
+    border-radius: 50%;
+    margin: 40% auto 40% auto;
+    background-color: black;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.699);
+}
+
+section > a > img {
+    display: block;
+    width: 3vw;
+    height: 5.5vh;
+    border-radius: 50%;
+    margin: 40% auto 40% auto;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.699);
+    box-sizing: border-box;
+}
+
+section > a > img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.651);
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+    transition: transform 0.3s, border 0.2s;
+}
+
+section.container {
+    position: relative;
+    margin: auto;
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+article.phone {
+    width: 15vw;
+    height: 55vh;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+article.phone img {
+    height: 100%;
+    width: 100%;
+}
+
+div.frame {
+    height: 42vh;
+    width: 13vw;
+    position: absolute;
+    display: block;
+    top: 12.8%;
+    left: 7.15%;
+}
+
+iframe.tela {
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+}
