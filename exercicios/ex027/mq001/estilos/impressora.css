@@ -1,0 +1,27 @@
+@charset "UTF-*";
+
+/*
+    Estilo para Impressão
+*/
+
+* {
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    outline: none;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+menu {
+    display: none;
+}
+
+article::after {
+    content: 'Este artigo foi impresso por Edmar Junyor Bevilaqua através do site Curso em Vídeo.';
+}
